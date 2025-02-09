@@ -284,6 +284,11 @@ ul{
       }
     }
 }
+@media (max-width:107px){
+    .header .container ul{
+        display: none;
+    }
+}
 
 
 
@@ -453,6 +458,8 @@ ul{
 .header ul li .botn a:hover{
     color: #00098d;
 }
+
+
 
 .landing{
    
@@ -709,6 +716,21 @@ ul{
         }
     }
    
+}
+
+@media (max-width:950px ){
+  
+    .landing .container .right{
+        display: none;
+    }
+    .landing .container .left .bot{
+        display: flex;
+        flex-direction: column;
+    }
+    .landing .container .bobs{
+        display: none;
+    }
+
 }
 
 
@@ -1757,6 +1779,12 @@ ul{
     }
 }
 
+@media (max-width:950px ){
+    .land .container .heading{
+        display: none;
+    }
+}
+
 
 
 .main-sectoin{
@@ -2508,6 +2536,17 @@ ul{
 
     }
 
+    @media (max-width:950px ){
+        .main-sectoin .container {
+            display: none;
+        }
+    }
+    @media (max-width:950px ){
+        .main-side  {
+            display: none;
+        }
+    }
+
 
 
     .main-side{
@@ -2987,6 +3026,7 @@ ul{
         height: 30px;
         padding: 30px 0 0 ;
     }
+
     
     .line-text{
         >.container{
@@ -3127,6 +3167,11 @@ ul{
                 }
             }
 
+        }
+    }
+    @media (max-width:950px ){
+        .line-text .container .text{
+            display: none;
         }
     }
 
@@ -3877,6 +3922,19 @@ ul{
       }
         
           
+      }
+      @media (max-width:950px ){
+
+        .footer .container {
+           margin: 0 auto;
+        }
+        .footer .container .last-corner{
+            display: none;
+        }
+        .footer .container .left{
+            
+        }
+
       }
       .foot{
           width: 1290px;
